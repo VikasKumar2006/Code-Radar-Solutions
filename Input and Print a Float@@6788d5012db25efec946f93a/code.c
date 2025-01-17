@@ -6,7 +6,7 @@ int main() {
     printf("Enter a floating-point number:");
     scanf("%f", &num);
 
-    printf("You entered: %g\n", num);
+    printf("You entered: %d\n", num);
 
     return 0;
 }
