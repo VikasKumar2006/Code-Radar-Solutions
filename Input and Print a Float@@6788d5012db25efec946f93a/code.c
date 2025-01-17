@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main() {
+    float num;
 
-    printf("You entered: 3.14");
-    
-    printf("You entered: 0.00");
+    printf("Enter floating-point number:");
+    scanf("%f, &num");
+
+    printf("You entered: %f\n");
 
     return 0;
 }
