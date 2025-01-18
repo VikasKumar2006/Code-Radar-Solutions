@@ -1,11 +1,11 @@
-#include <stdio.h>  // Include necessary header file
+#include <stdio.h>  
 
 int main() {
     int num;  
       
-    scanf("%d", &num);  // Take user input
+    scanf("%d", &num);  
 
-    printf("You entered: %d\n", num);  // Print the entered number
+    printf("You entered: %d\n", num);  
 
-    return 0;  // Indicate successful execution
+    return 0;  
 }
