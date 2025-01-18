@@ -9,5 +9,5 @@ int main(){
     scanf("%d",&b);
 
     printf("Sum: %d",a+b);
-    retuen 0;
+    return 0;
 }
