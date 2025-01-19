@@ -2,7 +2,7 @@
 
 int main() {
     float radius;
-    float pi = 3.14;
+    const float pi = 3.14;
     printf("Enter radius: ");
     scanf("%f", &radius);
 
