@@ -6,7 +6,7 @@ int main() {
     printf("Enter radius: ");
     scanf("%f", &radius);
 
-    printf("Area: %.2f\n", 3.14 * radius * radius); // Print with 2 decimal places
+    printf("Area: %f\n", 3.14 * radius * radius); // Print with 2 decimal places
 
     return 0;
 }
