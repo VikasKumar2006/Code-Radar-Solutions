@@ -2,6 +2,7 @@
 
 int main() {
     int num, n;
+
     printf("Enter number: ");
     scanf("%d", &num);
 
@@ -10,7 +11,7 @@ int main() {
 
     num ^= (1 << n); // Toggle the nth bit
 
-    printf("Updated number: %d\n", num);
+    printf("%d\n", num);
 
     return 0;
 }
