@@ -8,8 +8,8 @@ int main() {
     int result2 = ~num2;  // Apply one's complement
 
     // Print results
-    printf("Test case 1 - Input: %d, Output: %d\n", num1, result1);
-    printf("Test case 2 - Input: %d, Output: %d\n", num2, result2);
+    printf("%d,%d\n", num1, result1);
+    printf("%d,%d\n", num2, result2);
     
     return 0;
 }
