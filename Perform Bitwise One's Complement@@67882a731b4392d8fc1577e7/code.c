@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    
-    // Read the input integer
-    scanf("%d", &num);
-    
+    int a;
+    scanf("%d", &a);
     // Output the result of the one's complement operation
-    printf("%d\n", ~num);
-    
+    printf("%d\n", ~a);
     return 0;
 }
 
