@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    scanf("%d", &num);
+    int a;
+    scanf("%d", &a);
     // Check the MSB by checking if the number is non-zero
-    if (num & (1<<31)){
+    if (a & (1<<31)){
         printf("Set\n");  // MSB is 1 for non-zero numbers
     } 
     else {
