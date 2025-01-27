@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int num, shift;
-    scanf("%d %d", &num, &shift);
+    int a, shift;
+    scanf("%d %d", &a, &shift);
     // Perform left shift
-    printf("%d\n", num << shift);
+    printf("%d\n", a << shift);
     return 0;
 }
