@@ -2,9 +2,6 @@
 
 int main() {
     int N;
-
-    // Input the number of rows
-    printf("Enter the number of rows: ");
     scanf("%d", &N);
 
     // Loop to print the pattern
