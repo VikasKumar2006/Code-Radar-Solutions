@@ -7,7 +7,7 @@ int main() {
         for (int j = 1; j <= i; j++) {  // Inner loop for stars
             printf("* ");
         }
-        printf("\n"); hh // Move to the next line
+        printf("\n");  // Move to the next line
     }
 
     return 0;
