@@ -5,7 +5,7 @@ int main() {
     for (i = 1; i <= n; i++) {
         // Print spaces
         for (j = 1; j <= n - i; j++) 
-            printf(" ");
+            printf("  ");
         // Print increasing numbers
         for (j = 1; j <= i; j++) 
             printf("%d ", j);
