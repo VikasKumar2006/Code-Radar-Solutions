@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void fibonacciSeries(int n) {
+int fibonacciSeries(int n) {
     // Handle the special cases
     if (n <= 0) {
         return; // No terms to display
