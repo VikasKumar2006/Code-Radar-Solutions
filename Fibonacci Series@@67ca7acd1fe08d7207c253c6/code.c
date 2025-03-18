@@ -15,7 +15,7 @@ void fibonacciSeries(int n) {
     }
     printf("\n");
 }
-int main() {
+int main(){
     int n;
     scanf("%d", &n);
     if (n <= 0) {
