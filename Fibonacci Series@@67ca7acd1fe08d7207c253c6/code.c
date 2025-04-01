@@ -10,7 +10,7 @@ int main() {
     int k;
     scanf("%d", &k);
     for(int i=0;i<k;i++){
-        printf("%d",fibonacciSeries(k));
+        printf("%d",fibonacciSeries(i));
     }
 
     return 0;
